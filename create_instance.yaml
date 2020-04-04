@@ -1,1 +1,24 @@
 
+- hosts: localhost
+  gather_facts: yes
+  vars_files:
+    - credentials.yml
+  tasks:
+  - name: Creating an ec2 Instance
+    ec2:
+      instance_type: the type of instance
+      #t2.micro
+      image: 
+      #ami-03d8059563982d7b0
+      key_name: the key name to use to connect in this instance
+      #ubuntu-central-1
+      region: eu-central-1
+      aws_access_key: "{{AWS_ACCESS_KEY_ID}}"
+      aws_secret_key: "{{AWS_SECRET_ACCESS_KEY}}"
+      group: default
+      vpc_subnet_id: the subnet id of vpc
+      #subnet-316a8b4d
+      assign_public_ip: yes
+      wait: yes
+      instance_tags:
+        Name: tags Instance
