@@ -16,7 +16,7 @@ example of type ec2 instance <br/>
       assign_public_ip: yes<br/>&nbsp;&nbsp;&nbsp;&nbsp;
       wait: yes<br/>&nbsp;&nbsp;&nbsp;&nbsp;
       instance_tags:<br/>&nbsp;&nbsp;&nbsp;&nbsp;
-        Name: tags Instance<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        Name: tags Instance<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 ## File Credentials.yaml<br/>
 
