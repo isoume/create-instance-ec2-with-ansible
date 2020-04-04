@@ -1,11 +1,11 @@
 # create-instance-ec2-with-ansible
 
-## File create_instance.yaml
-In this file, we have multiple parameters :
-example of type ec2 instance
-- name: Creating an ec2 Instance
-    ec2:
-      instance_type: t2.micro
+## File create_instance.yaml <br/>
+In this file, we have multiple parameters :<br/>
+example of type ec2 instance <br/>
+- name: Creating an ec2 Instance <br/>
+    ec2: <br/>
+      instance_type: t2.micro <br/>
       image: ami-03d8059563982d7b0
       key_name: ubuntu-central-1
       region: eu-central-1
