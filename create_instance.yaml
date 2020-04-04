@@ -8,7 +8,7 @@
     ec2:
       instance_type: the type of instance
       #t2.micro
-      image: 
+      image: The image to install in this instance
       #ami-03d8059563982d7b0
       key_name: the key name to use to connect in this instance
       #ubuntu-central-1
