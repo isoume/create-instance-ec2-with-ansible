@@ -21,5 +21,5 @@ example of type ec2 instance <br/>
 ## File Credentials.yaml<br/>
 
 In this file, we make the de differents parameters <br/>
-AWS_ACCESS_KEY_ID: XXXXXXXXXXXX (Your acces key ID) <br/>&nbsp;&nbsp;
+AWS_ACCESS_KEY_ID: XXXXXXXXXXXX (Your acces key ID) <br/>
 AWS_SECRET_ACCESS_KEY: XXXXXXXXXXXXX (secret key to use to connect in this instance)
